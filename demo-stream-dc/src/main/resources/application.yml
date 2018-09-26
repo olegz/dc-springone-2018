@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    stream:
+#      default:
+#        contentType: application/*+avro
+      bindings:
+        input:
+          destination: myDestination
+          group: myGroup
